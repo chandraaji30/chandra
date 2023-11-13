@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-image: url(Smarter\ Machines\,\ Smarter\ Humans_\ Evolution\ of\ Technology.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.wrapper{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-content{
+    margin: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    color: white;
+}
+.logo-content h1 span{
+    color: red;
+}
+.navbar-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.navbar-content li{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-content a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+.navbar-content li a::after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid white;
+    transform: scaleX(0);
+}
+.navbar-content li a:hover::after{
+    transform: scaleX(0.5);
+    transition: 0.3s;
+}
+footer{
+    width: 100%;
+    background-color: black;
+}
+iframe{
+    height: 200px;
+    width: 400px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content p{
+    color: white;
+    margin: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.content-foto img{
+    width: 300px;
+    height: 300px;
+}
+.content-foto{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
